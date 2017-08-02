@@ -561,7 +561,7 @@ var Pie = pureRender(_class = (_temp2 = _class2 = function (_Component) {
       var tempEndAngle = tempStartAngle + mathSign(deltaAngle) * (minAngle + percent * realTotalAngle);
       var midAngle = (tempStartAngle + tempEndAngle) / 2;
       var middleRadius = (coordinate.innerRadius + coordinate.outerRadius) / 2;
-      var tooltipPayload = [{ name: name, value: val, payload: entry, percentage: percentage }];
+      var tooltipPayload = [{ name: name, value: val, payload: entry, percent: percent }];
       var tooltipPosition = polarToCartesian(coordinate.cx, coordinate.cy, middleRadius, midAngle);
 
       prev = _extends({
