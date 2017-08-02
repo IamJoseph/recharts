@@ -1,3 +1,7 @@
+* As of 8/2/17 the only difference between this fork and the original repo is this version is post-built and it includes a percents prop for tooltips.
+
+Install via ```npm install IamJoseph/recharts```
+
 # Recharts
 
 [![Rocket.Chat](https://demo.rocket.chat/images/join-chat.svg)](https://demo.rocket.chat/channel/recharts)
